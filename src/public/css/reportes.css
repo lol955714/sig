@@ -1,0 +1,35 @@
+		table {
+			width: 100%;
+			border: 1px solid #000;
+			border-collapse: collapse;
+		}
+		th, tr, td {
+			width: 25%;
+			vertical-align: top;
+			border: 1px solid #000;
+		}
+		.text-center{
+			text-align: center;
+		}
+		.img-container-block {
+			text-align: center;
+		}
+		.img-container-inline {
+			text-align: center;
+			display: block;
+		}
+		.table td:first-child {
+			width: 120px;
+		}
+		.table td:nth-child(2) {
+			width: 340px;
+		}
+		.table td:nth-child(3) {
+			width: 75px;
+		}
+		.table td:nth-child(4) {
+			width: 75px;
+		}
+		.table td:last-child {
+			width: 100px;
+		}
