@@ -24,3 +24,16 @@ Route::get('/', 'Auth\LoginController@showLoginForm')->name('inicio');
 
 //CRUD usuarios
 Route::get('perfil', 'usuarioController@perfil')->name('usuario.perfil');
+
+
+//reportes tacticos - ever
+Route::get();
+Route::get();
+Route::get();
+Route::get();
+
+//reportes estratégicos - andres
+//
+//
+//
+//
