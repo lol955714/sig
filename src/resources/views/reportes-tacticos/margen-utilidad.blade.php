@@ -15,7 +15,7 @@ Margen de utilidad
 		<ul>
 			<h4 style="display: inline-block;">Productos con mayor margen de utilidad&nbsp;&nbsp;</h4>
 			<button class="add-modal btn btn-primary">
-				<span class="fas fa-print">&nbsp;</span>Imprimir reporte
+				<span class="fas fa-print">&nbsp;</span>&nbsp;Imprimir reporte
 			</button>
 		</ul>
 	</div>

@@ -29,20 +29,22 @@ Ventas por categoría
 					<input type="text" class="form-control fecha-format" required>
 				</div>
 				<label class="col-md-2 col-form-label text-md-right">
-					<b>Fecha fin: </b>
+					<b>Fecha final: </b>
 				</label>
 				<div class="col-md-2">
 					<input type="text" class="form-control fecha-format" required>
 				</div>
 				<select class="col-md-2 form-control">
 					<option selected="true" disabled="true">Categoría </option>
-					<option>X</option>
-					<option>Y</option>
-					<option>Z</option>
+					<option>Vitaminas</option>
+					<option>Antigripales</option>
+					<option>Analgésicos</option>
+					<option>Antivirales</option>
+					<option>Anti-inflamatorios</option>
 				</select>
 				&nbsp;&nbsp;
 				<button class="add-modal btn btn-primary">
-					<span class="fas fa-print"></span>Imprimir reporte
+					<span class="fas fa-print"></span>&nbsp;Imprimir reporte
 				</button>
 			</div>
 		</ul>
