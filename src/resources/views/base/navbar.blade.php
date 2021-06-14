@@ -19,9 +19,10 @@
               <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Reportes Tácticos</a>
               <div class="dropdown-menu dropdown-menu-right animate slideIn shadow" aria-labelledby="dropdown01">
                 <a class="dropdown-item" href="{{ route('tactico.margen') }}">Margen de utilidad</a>
-                <a class="dropdown-item" href="#">X</a>
-                <a class="dropdown-item" href="#">X</a>
-                <a class="dropdown-item" href="#">X</a>
+                <a class="dropdown-item" href="{{ route('tactico.categoria') }}">Ventas por categoria</a>
+                <a class="dropdown-item" href="{{ route('tactico.rotacion') }}">Rotación de inventario</a>
+                <a class="dropdown-item" href="{{ route('tactico.masvendidos') }}">Más vendidos</a>
+
               </div>
             </li>
 
