@@ -27,10 +27,10 @@ Route::get('perfil', 'usuarioController@perfil')->name('usuario.perfil');
 
 
 //reportes tacticos - ever
-Route::get();
-Route::get();
-Route::get();
-Route::get();
+Route::get('margen-utilidad', 'tacticosController@margen_utilidad')->name('tactico.margen');
+Route::get('v-categoria', 'tacticosController@ventas_categoria')->name('tactico.categoria');
+Route::get('rotacion', 'tacticosController@rotacion_inventario')->name('tactico.rotacion');
+Route::get('mas-vendidos', 'tacticosController@productos_mas_vendidos')->name('tactico.masvendidos');
 
 //reportes estratégicos - andres
 //
