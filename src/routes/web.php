@@ -33,7 +33,8 @@ Route::get('rotacion', 'tacticosController@rotacion_inventario')->name('tactico.
 Route::get('mas-vendidos', 'tacticosController@productos_mas_vendidos')->name('tactico.masvendidos');
 
 //reportes estratégicos - andres
-//
-//
-//
-//
+Route::get('productos_fechaVencimiento', 'estrategicosController@productos_fechaVencimiento')->name('estrategico.fechaVencimiento');
+Route::get('productos_estacion', 'estrategicosController@productos_estacion')->name('estrategico.estacion');
+Route::get('comparacion_compras', 'estrategicosController@comparacion_compras')->name('estrategico.compras');
+Route::get('productos_margenUtilidad', 'estrategicosController@productos_margenUtilidad')->name('estrategico.margenUtilidad');
+
