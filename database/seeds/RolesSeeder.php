@@ -15,6 +15,5 @@ class RolesSeeder extends Seeder
         Rol::create(['nombre_rol' => 'administrador',]);
         Rol::create(['nombre_rol' => 'tactico',]);
         Rol::create(['nombre_rol' => 'estrategico',]);
-        Rol::create(['nombre_rol' => 'operativo',]);
     }
 }

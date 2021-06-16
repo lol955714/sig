@@ -14,6 +14,12 @@
             @auth
             
             @if(Auth::user()->id_rol == 1)
+            <!--Para administrador de sistema -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Usuarios</a> 
+            </li>
+            
+            <!--tactico -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Reportes Tácticos</a>
               <div class="dropdown-menu dropdown-menu-right animate slideIn shadow" aria-labelledby="dropdown01">
@@ -25,6 +31,7 @@
               </div>
             </li>
 
+            <!--estrategico -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Reportes Estratégicos</a>
               <div class="dropdown-menu dropdown-menu-right animate slideIn shadow" aria-labelledby="dropdown01">
@@ -34,14 +41,34 @@
                 <a class="dropdown-item" href="{{ route('estrategico.margenUtilidad') }}">Mejor margen de utilidad</a>
               </div>
             </li>
+
             @endif
 
             @if(Auth::user()->id_rol == 2)
+            <!--tactico -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Reportes Tácticos</a>
+              <div class="dropdown-menu dropdown-menu-right animate slideIn shadow" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ route('tactico.periodo') }}">Ventas por periodo</a>
+                <a class="dropdown-item" href="{{ route('tactico.categoria') }}">Ventas por categoria</a>
+                <a class="dropdown-item" href="{{ route('tactico.rotacion') }}">Rotación de inventario</a>
+                <a class="dropdown-item" href="{{ route('tactico.masvendidos') }}">Más vendidos</a>
 
+              </div>
+            </li>
             @endif
 
             @if(Auth::user()->id_rol == 3)
-
+            <!--estrategico -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Reportes Estratégicos</a>
+              <div class="dropdown-menu dropdown-menu-right animate slideIn shadow" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ route('estrategico.fechaVencimiento') }}">Productos por fechas de vencimiento</a>
+                <a class="dropdown-item" href="{{ route('estrategico.estacion') }}">Productos más vendidos</a>
+                <a class="dropdown-item" href="{{ route('estrategico.compras') }}">Compras por período</a>
+                <a class="dropdown-item" href="{{ route('estrategico.margenUtilidad') }}">Mejor margen de utilidad</a>
+              </div>
+            </li>
             @endif
 
           </ul>
