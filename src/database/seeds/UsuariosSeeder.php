@@ -18,25 +18,32 @@ class UsuariosSeeder extends Seeder
     public function run()
     {
 
-    	User::create(['nombre_usuario' => 'jefe',
+    	User::create(['nombre_usuario' => 'jose.hernandez',
     		'password' => Hash::make('admin'),
-    		'nombres' => 'Jefe',
-    		'apellidos' => 'XX',
+    		'nombres' => 'José Antony',
+    		'apellidos' => 'Jiménez Hernández',
     		'id_rol' => '1',
     	]);
 
-    	User::create(['nombre_usuario' => 'gerente',
+    	User::create(['nombre_usuario' => 'william.lopez',
     		'password' => Hash::make('admin'),
-    		'nombres' => 'Gerente',
-    		'apellidos' => 'XX',
+    		'nombres' => 'William Joel',
+    		'apellidos' => 'Lopez Díaz',
     		'id_rol' => '2',
     	]);
 
-    	User::create(['nombre_usuario' => 'usuario',
+    	User::create(['nombre_usuario' => 'jose.rivas',
     		'password' => Hash::make('admin'),
-    		'nombres' => 'Usuario',
-    		'apellidos' => 'XX',
+    		'nombres' => 'José Alberto',
+    		'apellidos' => 'Rivas Lopez',
     		'id_rol' => '3',
     	]);
+
+        User::create(['nombre_usuario' => 'usuario',
+            'password' => Hash::make('admin'),
+            'nombres' => 'Usuario',
+            'apellidos' => 'Operativo',
+            'id_rol' => '4',
+        ]);
     }
 }
