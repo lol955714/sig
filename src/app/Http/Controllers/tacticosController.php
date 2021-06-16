@@ -11,9 +11,9 @@ use App\Models\Rol;
 class tacticosController extends Controller
 {
 
-    function margen_utilidad(){
+    function ventas_periodo(){
         $usuarios = Auth::user();
-        return view('reportes-tacticos.margen-utilidad',['usuarios' => $usuarios]);
+        return view('reportes-tacticos.ventas-por-periodo',['usuarios' => $usuarios]);
     }
 
     function ventas_categoria(){

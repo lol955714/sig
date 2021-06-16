@@ -30,7 +30,7 @@ Comparación de montos de compras entre períodos
 					<option>Marzo</option>
 					<option>Abril</option>
                     <option>Mayo</option>
-				</select>
+				</select>&nbsp;&nbsp;&nbsp;
 				<button class="add-modal btn btn-primary">
 					<span class="fas fa-print"></span>&nbsp;Imprimir reporte
 				</button>
