@@ -19,6 +19,7 @@ Margen de utilidad
 			</button>
 		</ul>
 	</div>
+	
 	<div class="panel-body">
 		<table class="table table-hover" id="postTable">
 			<thead class="thead-light">
@@ -32,22 +33,28 @@ Margen de utilidad
 			</thead>
 			<tbody>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Acetaminofen</td>
+					<td>Pastilla</td>
+					<td>$0.15</td>
+					<td>120</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Acetaminofen MK</td>
+					<td>Pastilla</td>
+					<td>$0.10</td>
+					<td>112</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Tylenol</td>
+					<td>Pastilla</td>
+					<td>$0.09</td>
+					<td>85</td>
+				</tr>
+				<tr>
+					<td>Ibuprofeno</td>
+					<td>Pastilla</td>
+					<td>$0.08</td>
+					<td>60</td>
 				</tr>
 			</tbody>
 		</table>

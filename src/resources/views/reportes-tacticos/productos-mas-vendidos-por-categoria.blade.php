@@ -26,19 +26,19 @@ Productos más vendidos por categoría
 					<b>Fecha inicio: </b>
 				</label>
 				<div class="col-md-2">
-					<input type="text" class="form-control fecha-format" required>
+					<input type="text" class="form-control fecha-format" value="2020-01-01" disabled>
 				</div>
 				<label class="col-md-2 col-form-label text-md-right">
 					<b>Fecha final: </b>
 				</label>
 				<div class="col-md-2">
-					<input type="text" class="form-control fecha-format" required>
+					<input type="text" class="form-control fecha-format" value="2020-02-28" disabled>
 				</div>
-				<select class="col-md-2 form-control">
-					<option selected="true" disabled="true">Categoría </option>
+				<select class="col-md-2 form-control" disabled>
+					<option disabled="true">Categoría </option>
 					<option>Vitaminas</option>
 					<option>Antigripales</option>
-					<option>Analgésicos</option>
+					<option selected="true">Analgésicos</option>
 					<option>Antivirales</option>
 					<option>Anti-inflamatorios</option>
 				</select>
@@ -50,7 +50,7 @@ Productos más vendidos por categoría
 		</ul>
 	</div>
 	<div class="panel-body">
-		<b>Categoría: X</b>
+
 		<table class="table table-hover" id="postTable">
 			<thead class="thead-light">
 				<tr>
@@ -62,19 +62,24 @@ Productos más vendidos por categoría
 			</thead>
 			<tbody>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Acetaminofén</td>
+					<td>Analgésico</td>
+					<td>$950.00</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Acetaminofén MK</td>
+					<td>Analgésico</td>
+					<td>$900.00</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Iboprofeno</td>
+					<td>Analgésico</td>
+					<td>$874.00</td>
+				</tr>
+				<tr>
+					<td>Tylenol</td>
+					<td>Analgésico</td>
+					<td>$654.00</td>
 				</tr>
 			</tbody>
 		</table>

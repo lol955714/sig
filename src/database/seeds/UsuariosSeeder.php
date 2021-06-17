@@ -38,12 +38,5 @@ class UsuariosSeeder extends Seeder
     		'apellidos' => 'Rivas Lopez',
     		'id_rol' => '3',
     	]);
-
-        User::create(['nombre_usuario' => 'usuario',
-            'password' => Hash::make('admin'),
-            'nombres' => 'Usuario',
-            'apellidos' => 'Operativo',
-            'id_rol' => '4',
-        ]);
     }
 }

@@ -17,17 +17,17 @@ Productos más vendidos por estación
 				<label class="col-md-2 col-form-label text-md-right">
 					<b>Estación a analizar: </b>
 				</label>
-				<select class="col-md-2 form-control" disabled="">
-					<option disabled="true">Estación </option>
-					<option selected="true">Verano</option>
+				<select class="col-md-2 form-control">
+					<option selected="true" disabled="true">Estación </option>
+					<option>Verano</option>
 					<option>Invierno</option>
 					<option>Transición invierno a verano</option>
 					<option>Transición verano a invierno</option>
 				</select>
 				&nbsp;&nbsp;
-				<button class="add-modal btn btn-primary">
-					<span class="fas fa-print"></span>&nbsp;Imprimir reporte
-				</button>
+				<a class="add-modal btn btn-primary" href="{{ route('estrategico.estacion') }}">
+					<span class="fas fa-print"></span>&nbsp;Generar reporte
+				</a>
 			</div>
 		</ul>
 	</div>
@@ -45,21 +45,7 @@ Productos más vendidos por estación
 				{{ csrf_field() }}
 			</thead>
 			<tbody>
-				<tr>
-					<td>Acetaminofén</td>
-					<td>Pastilla</td>
-					<td>125</td>
-				</tr>
-				<tr>
-					<td>Suero</td>
-					<td>Líquidos</td>
-					<td>120</td>
-				</tr>
-				<tr>
-					<td>Acetaminofén MK</td>
-					<td>Pastilla</td>
-					<td>74</td>
-				</tr>
+
 			</tbody>
 		</table>
 	</div><!-- /.panel-body -->

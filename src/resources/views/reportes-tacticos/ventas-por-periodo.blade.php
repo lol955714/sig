@@ -26,13 +26,13 @@ Ventas por período
 					<b>Fecha inicio: </b>
 				</label>
 				<div class="col-md-2">
-					<input type="text" class="form-control fecha-format" required>
+					<input type="text" class="form-control fecha-format" value="1/5/2021" disabled>
 				</div>
 				<label class="col-md-2 col-form-label text-md-right">
 					<b>Fecha final: </b>
 				</label>
 				<div class="col-md-2">
-					<input type="text" class="form-control fecha-format" required>
+					<input type="text" class="form-control fecha-format" value="31/5/2021" disabled>
 				</div>
 				&nbsp;&nbsp;
 				<button class="add-modal btn btn-primary">
@@ -42,7 +42,6 @@ Ventas por período
 		</ul>
 	</div>
 	<div class="panel-body">
-		<b>Categoría: X</b>
 		<table class="table table-hover" id="postTable">
 			<thead class="thead-light">
 				<tr>
@@ -54,19 +53,24 @@ Ventas por período
 			</thead>
 			<tbody>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Acetaminofén</td>
+					<td>Pastilla</td>
+					<td>$125</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Tylenol</td>
+					<td>Pastilla</td>
+					<td>$75</td>
 				</tr>
 				<tr>
-					<td>X</td>
-					<td>X</td>
-					<td>X</td>
+					<td>Ibuprofeno</td>
+					<td>Pastilla</td>
+					<td>$85</td>
+				</tr>
+				<tr>
+					<td>Suero</td>
+					<td>Líquido</td>
+					<td>$146</td>
 				</tr>
 			</tbody>
 		</table>
